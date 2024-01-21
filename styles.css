@@ -1,0 +1,90 @@
+.header {
+  overflow: hidden;
+  background-color: #1F2937;
+  padding: 20px 10px;
+ align-self: stretch;
+  
+}
+
+.header a.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #F9FAF8;
+  float: left;  
+  margin: 20px;
+ 
+}
+/* Style the header links */
+ a {
+  color: #F9FAF8 ;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+  float: right; 
+  
+  margin: 20px;
+}
+.hero {
+justify-content: space-between;
+padding: 5%;
+margin: auto;
+color: #F9FAF8;
+letter-spacing: 2px;
+text-align: left; 
+display: flex;
+float: left;
+align-items: stretch;
+} 
+h1 {
+  font-size: 48px; 
+  margin: auto; 
+
+}
+p.subtext{
+  font-size: 18px;
+  margin: auto;
+} 
+
+img{
+
+ display: block;
+ height: 230px;
+ width: 500px; 
+ align-self: center;
+} 
+
+button{
+  font-size: 16px;
+  background-color: #3882f6;
+  border: none;
+  text-align: center;
+  display: inline-flex;
+  color: white;
+  padding: 10px 20px;
+  margin: auto;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+
+.text-content {
+  flex-grow: 2; /* Allow the text content to grow and take available space */
+  margin-right: 10px;
+}
+.information {
+  font-size: 36px;
+  text-align: center;
+  color: #1f2937;
+}
+.sub-section > img {
+ 
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+
+}
+.sub-section {
+  display: inline-flex;
+}
