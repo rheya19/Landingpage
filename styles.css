@@ -2,10 +2,10 @@
   overflow: hidden;
   background-color: #1F2937;
   padding: 20px 10px;
- align-self: stretch;
+  /* align-self: stretch; */
   
 }
-
+ /*Style header logo*/
 .header a.logo {
   font-size: 24px;
   font-weight: bold;
@@ -42,14 +42,13 @@ h1 {
   margin: auto; 
 
 }
-p.subtext{
+p.subtext{ /*This Webiste... */
   font-size: 18px;
   margin: auto;
 } 
 
-img{
+img{  /*Sky Picture the upper right*/
 
- display: block;
  height: 230px;
  width: 500px; 
  align-self: center;
@@ -71,20 +70,56 @@ button{
 
 .text-content {
   flex-grow: 2; /* Allow the text content to grow and take available space */
-  margin-right: 10px;
-}
-.information {
-  font-size: 36px;
-  text-align: center;
-  color: #1f2937;
-}
-.sub-section > img {
- 
-  width: 200px;
-  height: 200px;
-  border-radius: 10px;
 
 }
-.sub-section {
-  display: inline-flex;
+.section1 h2 {
+  margin: 5px;
+  text-align: center;
+  color: #1f2937;
+  font-size: 36px;
+}
+.gallery {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+.gallery img {
+  width:200px;
+  height: 200px;
+ border: 5px solid #3882f6;
+ border-radius: 4px;
+ padding: 3px;
+ 
+}
+
+.gallery div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.description{
+  text-align: center;
+  font-size: 18px;
+}
+.qoute-section{
+  background-color: #e5e7eb;
+  font-size: 36px;
+  font-style: italic;
+  font-weight:lighter ;
+}
+.caption {
+font-size: 26px;
+text-align: right;
+padding: 10px;
+}
+.section2 {
+
+  border-radius: 5px;
+  color:black;
+}
+.button1 {
+  border-color: black;
+  border-radius: 4px;
 }
