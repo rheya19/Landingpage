@@ -104,22 +104,55 @@ button{
   font-size: 18px;
 }
 .qoute-section{
+ 
   background-color: #e5e7eb;
   font-size: 36px;
   font-style: italic;
   font-weight:lighter ;
+  color: #1F2937;
 }
+
 .caption {
+margin: 60px 180px;
 font-size: 26px;
 text-align: right;
 padding: 10px;
 }
 .section2 {
-
-  border-radius: 5px;
-  color:black;
+  margin: 60px 180px;
+  border-radius: 10px;
+  color:#e5e7eb;
+  background-color: #3882f6 ;
+  justify-content: space-between;
+  flex: 1;
+  align-items: center;
+  min-width: 700px;
+  padding: 60px 90px;
+  display: block;
 }
-.button1 {
-  border-color: black;
-  border-radius: 4px;
+.section2-text  {
+font-size: 20px;
+font-weight: bolder;
+display: block;
+}
+.subtext-p  {
+  font-size: 16px;
+  font-weight: lighter;
+  display: block;
+  }
+
+
+.section2-button {
+  font-size: 20px;
+  background-color: #3882f6;
+  color:#e5e7eb;
+  cursor: pointer;
+  border: 3px solid;
+  margin-left: auto;
+  padding: 12px 14px;
+  float: right;
+}
+
+.footer {
+  background-color: #1F2937;
 }
