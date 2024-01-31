@@ -101,7 +101,7 @@ button{
 }
 .description{
   text-align: center;
-  font-size: 18px;
+  font-size: 24px;
 }
 .qoute-section{
  
@@ -128,7 +128,7 @@ padding: 10px;
   align-items: center;
   min-width: 700px;
   padding: 60px 90px;
-  display: block;
+  display: flex;
 }
 .section2-text  {
 font-size: 20px;
@@ -142,17 +142,21 @@ display: block;
   }
 
 
-.section2-button {
+.button2 {
   font-size: 20px;
   background-color: #3882f6;
   color:#e5e7eb;
   cursor: pointer;
   border: 3px solid;
   margin-left: auto;
-  padding: 12px 14px;
-  float: right;
+  display: inline-block;
+  text-align: center;
 }
 
 .footer {
   background-color: #1F2937;
+  color: #e5e7eb;
+  text-align: center;
+  font-size: large;
+  padding: 30px 60px;
 }
